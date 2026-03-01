@@ -3,7 +3,7 @@
 Tool CLI untuk inject presensi di SIA UTY secara otomatis dari terminal.
 
 > [!WARNING]
-> Gunakan dengan bijak!
+> Use at your own risk!
 
 ---
 
@@ -66,9 +66,6 @@ presensi-uty --id-matkul 123456 -n 5220411272 -p passwordkamu -m 1,2,3
 
 # Mengisi hanya minggu 5 menggunakan kode presensi lama
 presensi-uty --presensi-lama "U2FsdGVkX1+..." -n 5220411272 -p passwordkamu -m 5
-
-# Mengisi semua minggu sekaligus
-presensi-uty --id-matkul 123456 -n 5220411272 -p passwordkamu -m 1,2,3,4,5,6,7,8,9,10,11,12,13,14
 ```
 
 ---
@@ -82,9 +79,3 @@ ID matkul adalah angka 6 digit yang bisa kamu temukan saat masa pengisian KRS.
 3. Klik **Tambah Mata Kuliah**
 4. Klik kanan di nama mata kuliah → **Inspect** (atau tekan `F12`)
 4. Cari atribut seperti `value="123456"` — angka itulah ID matkulnya
-
----
-
-## Cara Mendapatkan Kode Presensi Lama
-
-Jika kamu punya kode QR presensi dari sistem lama UTY, kode terenkripsinya bisa langsung digunakan sebagai nilai `--presensi-lama`. Salin teks lengkap yang dimulai dengan `U2FsdGVk...`.
