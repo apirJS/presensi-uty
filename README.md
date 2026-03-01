@@ -1,6 +1,7 @@
 # Inject Presensi UTY
 
-Tool CLI untuk inject presensi di SIA UTY secara otomatis dari terminal.
+Tool CLI untuk inject presensi di SIA UTY (ril no fek).
+Script ini harom untuk dibisniskan!
 
 > [!WARNING]
 > Use at your own risk!
@@ -9,9 +10,9 @@ Tool CLI untuk inject presensi di SIA UTY secara otomatis dari terminal.
 
 ## Instalasi
 
-Tidak perlu install Rust atau compiler apapun. Cukup download file yang sesuai dengan sistem operasimu dari halaman [Releases](../../releases/latest).
+Tidak perlu install Rust atau compiler apapun. Download file yang sesuai dengan OS-mu dari halaman [Releases](../../releases/latest).
 
-| Sistem Operasi | File yang didownload |
+| OS | File |
 |---|---|
 | Windows 64-bit | `presensi-uty-windows-x86_64.exe` |
 | Linux 64-bit | `presensi-uty-linux-x86_64` |
@@ -35,7 +36,7 @@ chmod +x presensi-uty-linux-x86_64
 ./presensi-uty-linux-x86_64 --help
 ```
 
-> **macOS saja:** Jika muncul peringatan _"tidak dapat dibuka karena developer tidak diverifikasi"_, jalankan perintah ini sekali:
+> **macOS only:** Jika muncul peringatan _"tidak dapat dibuka karena developer tidak diverifikasi"_, jalankan perintah ini sekali:
 > ```bash
 > xattr -dr com.apple.quarantine ./presensi-uty-macos-*
 > ```
