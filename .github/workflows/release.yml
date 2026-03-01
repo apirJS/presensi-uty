@@ -26,11 +26,6 @@ jobs:
             artifact_name: presensi-uty
             asset_name: presensi-uty-linux-x86_64
 
-          - os: macos-13
-            target: x86_64-apple-darwin
-            artifact_name: presensi-uty
-            asset_name: presensi-uty-macos-x86_64
-
           - os: macos-latest
             target: aarch64-apple-darwin
             artifact_name: presensi-uty

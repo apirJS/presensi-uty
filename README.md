@@ -1,6 +1,6 @@
-# Presensi UTY
+# Inject Presensi UTY
 
-Tool CLI untuk mengisi presensi di SIA UTY secara otomatis dari terminal.
+Tool CLI untuk inject presensi di SIA UTY secara otomatis dari terminal.
 
 > [!WARNING]
 > Gunakan dengan bijak!
@@ -15,8 +15,7 @@ Tidak perlu install Rust atau compiler apapun. Cukup download file yang sesuai d
 |---|---|
 | Windows 64-bit | `presensi-uty-windows-x86_64.exe` |
 | Linux 64-bit | `presensi-uty-linux-x86_64` |
-| macOS Intel | `presensi-uty-macos-x86_64` |
-| macOS Apple Silicon (M1/M2/M3) | `presensi-uty-macos-aarch64` |
+| macOS (semua, termasuk Intel via Rosetta 2) | `presensi-uty-macos-aarch64` |
 
 ### Windows
 
